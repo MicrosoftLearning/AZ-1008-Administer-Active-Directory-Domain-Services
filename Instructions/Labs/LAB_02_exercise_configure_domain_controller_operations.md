@@ -19,9 +19,8 @@ In this task, you promote member server TAILWIND-MBR1 to become a domain control
 8.  On the Active Directory Domain Services page, click **Next**.
 9.  On the Confirm installation selections page, click **Install**. Depending on the speed of the computer, installation may take several minutes. When the installation completes, click **Close**.
 10. On the Server manager menu, select the notification icon next to the flag in the top right corner shown in the screenshot.
-    
+
     ![Screenshot of the server manager menu with the alert icon displayed.](./Media/server-manager-menu.png)
-    
 13. On the menu that opens when you select the notification icon, select **Promote this server to a domain controller**. This will start the Active Directory Domain Services Configuration Wizard.
 14. On the Deployment Configuration page, select **Add a domain controller to an existing domain** and ensure that the domain name is set to **tailwindtraders.internal**. Click **Next**.
 15. On the Domain Controller options page, accept the default settings and provide the Directory Services Restore Mode (DSRM) password. To do this, enter the following password twice: **Pa55w.rdPa55w.rd**. Click **Next**.
