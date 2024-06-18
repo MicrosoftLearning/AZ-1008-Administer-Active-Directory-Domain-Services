@@ -178,3 +178,5 @@ In this task, you deploy and configure a Windows Server 2022 Domain member serve
 37. Momentarily, the Welcome to the Tailwintraders domain dialog will appear. Click **OK**.
 38. On the System Properties dialog box, click **Close**.
 39. On the dialog asking you to restart the computer, click **Restart Now**.
+
+Test
