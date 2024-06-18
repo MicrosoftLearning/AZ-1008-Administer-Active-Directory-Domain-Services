@@ -29,7 +29,7 @@ In this task, you install Hyper-V and configure a NAT switch. You configure Hype
 4.  On the Optional Features page, scroll down until you locate **More Windows Features** under Related Settings.
 5.  On the Windows Feature page, select the checkbox next to Hyper-V and click **OK** as shown in the exhibit.
     
-    :::image type="content" source="../media/optional-features.png" alt-text="Screenshot of the Optional Features page with Hyper-V selected.":::
+    :::image type="content" source="../Media/optional-features.png" alt-text="Screenshot of the Optional Features page with Hyper-V selected.":::
     
 6.  When the installation completes, on the Windows Features page, click **Restart Now**.
 7.  After the computer restarts, sign in again using the same account that has local Administrative privileges.
@@ -57,14 +57,14 @@ In this task, you deploy and configure a Windows Server 2022 Domain Controller f
 10. In Hyper-V Manager, right-click TAILWIND-DC1 and select **Settings**.
 11. On the TAILWIND-DC1 Settings page, under Management select **Checkpoints** and ensure that the **Use automatic checkpoints** option isn't selected as is shown in the screenshot. Click **OK**.
     
-    :::image type="content" source="../media/checkpoints.png" alt-text="Screenshot of the Checkpoints selection on the Settings page.":::
+    :::image type="content" source="../Media/checkpoints.png" alt-text="Screenshot of the Checkpoints selection on the Settings page.":::
     
 12. Double-click TAILWIND-DC1. This opens the Virtual Machine Connection window. Select **Start**. When the Press any key to boot from CD or DVD message displays, use the mouse to select inside the virtual machine window and press the Space bar. This sets the virtual machine to boot from the attached ISO file.
 13. On the Microsoft Server Operating System Setup page, accept the defaults and click **Next**.
 14. On the Install now page, select **Install now**.
 15. On the Microsoft Server Operating System Setup page, select **Windows Server 2022 Standard Evaluation (Desktop Experience)** as shown in the screenshot and click **Next**.
     
-    :::image type="content" source="../media/server-install.png" alt-text="Screenshot of the Microsoft Server Operating System Setup screen with Windows Server 2022 Standard Evaluation selected.":::
+    :::image type="content" source="../Media/server-install.png" alt-text="Screenshot of the Microsoft Server Operating System Setup screen with Windows Server 2022 Standard Evaluation selected.":::
     
 16. On the Applicable notices and license terms page, review the license and then select the **I Accept** checkbox. Click **Next**.
 17. On the Which type of installation do you want? page, select **Custom**.
@@ -106,7 +106,7 @@ In this task, you deploy and configure a Windows Server 2022 Domain Controller f
 40. On the Confirm installation selections page, select **Install**. Depending on the speed of the computer, installation may take several minutes. When the installation completes, click **Close**.
 41. On the Server manager menu, select the notification icon next to the flag in the top right corner shown in the screenshot.
     
-    :::image type="content" source="../media/server-manager-menu.png" alt-text="Screenshot of the server manager menu with the alert icon displayed.":::
+    :::image type="content" source="../Media/server-manager-menu.png" alt-text="Screenshot of the server manager menu with the alert icon displayed.":::
     
 42. On the menu that opens when you select the notification icon, select **Promote this server to a domain controller**. This starts the Active Directory Domain Services Configuration Wizard.
 43. On the Deployment Configuration page, select **Add a new forest** and set the root domain name to **tailwindtraders.internal**. Click **Next**.
@@ -178,5 +178,3 @@ In this task, you deploy and configure a Windows Server 2022 Domain member serve
 37. Momentarily, the Welcome to the Tailwintraders domain dialog will appear. Click **OK**.
 38. On the System Properties dialog box, click **Close**.
 39. On the dialog asking you to restart the computer, click **Restart Now**.
-
-Test
