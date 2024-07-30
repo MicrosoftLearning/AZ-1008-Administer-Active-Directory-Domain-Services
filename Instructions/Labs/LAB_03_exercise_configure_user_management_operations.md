@@ -45,7 +45,7 @@ In this task, you create a user and configure account properties such as Account
 
 In this task, you create a new security group named Sydney Administrators. To complete this task, perform the following steps:
 
-1.  Sy TAILWIND-DC1, open Active Directory Users and Computers.
+1.  In TAILWIND-DC1, open Active Directory Users and Computers.
 2.  Right click the Sydney OU, and select **New**, then **Group**.
 3.  Type `Sydney Administrators` in Group name and select **Universal** in group scope. Click **OK**.
 4.  In the Sydney OU, double-click the SydneyContractor User account.
