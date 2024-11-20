@@ -38,8 +38,8 @@ In this task, you install Hyper-V and configure a NAT switch. You configure Hype
 10. On the **Hyper-V settings** dialog box, under Server, select **Virtual Machines**. Set the location of the Virtual Machines folder to C:\\VirtualMachines.
 11. Under the **Hyper-V settings** dialog box, under Server, select **Virtual Machine Hard Disks**. Set the location of the Virtual Machine Hard Disks to C:\\VirtualMachines\\VHDs.
 12. Click **OK** to close the **Hyper-V Settings** dialog box.
-13. Open an Administrative PowerShell prompt and run the following commands to create a NAT network.<br>`New-VMSwitch -SwitchName “NATSwitch” -SwitchType Internal`<br>`New-NetIPAddress -IPAddress 10.10.10.1 -PrefixLength 24 -InterfaceAlias “vEthernet (NATSwitch)”`<br>`New-NetNat -Name “NATNetwork” –InternalIPInterfaceAddressPrefix “10.10.10.0/24”`
-14. Close the Administrative command prompt.
+13. Open PowerShell with administrator access and run the following commands to create a NAT network.<br>`New-VMSwitch -SwitchName “NATSwitch” -SwitchType Internal`<br>`New-NetIPAddress -IPAddress 10.10.10.1 -PrefixLength 24 -InterfaceAlias “vEthernet (NATSwitch)”`<br>`New-NetNat -Name “NATNetwork” –InternalIPInterfaceAddressPrefix “10.10.10.0/24”`
+14. Close PowerShell.
 
 ## Create Windows Server Domain Controller Virtual Machine
 
