@@ -5,6 +5,8 @@ lab:
 ---
 In this exercise, you promote a server to domain controller, transfer a FSMO role to the new domain controller, create a site, and add a subnet to the site.
 
+This exercise should take approximately **15** minutes to complete. <!-- update with estimated duration -->
+
 ## Install Active Directory Domain Services (AD DS) and promote to Domain Controller
 
 In this task, you promote member server TAILWIND-MBR1 to become a domain controller in the TAILWINDTRADERS domain. To complete this task, perform the following steps:
