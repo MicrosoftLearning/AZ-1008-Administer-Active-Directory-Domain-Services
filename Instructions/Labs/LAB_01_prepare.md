@@ -7,6 +7,8 @@ lab:
 
 In this guided project, you go through the major steps of creating, configuring, and maintaining a domain controller. You also have the opportunity to promote a domain controller.
 
+This exercise should take approximately **45** minutes to complete. <!-- update with estimated duration -->
+
 ## Setup
 
 To reduce resource access requirements (such as access to Windows Server or a Microsoft Azure subscription), this guided project uses a Windows 10 or Windows 11 machine to run a virtualized environment. You configure a Windows 10 or Windows 11 computer’s Hyper-V subsystem to support the two Windows Server 2022 Evaluation Edition virtual machines that you use in this project. You require the Professional or Enterprise edition of Windows 10 or Windows 11 to perform these tasks.
