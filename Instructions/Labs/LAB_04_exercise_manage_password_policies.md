@@ -5,6 +5,8 @@ lab:
 ---
 In this exercise, you configure group policy items related to password policies. This includes configuring the domain password policy, creating a stricter password policy for the Domain Admins group, and enabling the Active Directory Recycle Bin.
 
+This exercise should take approximately **10** minutes to complete. <!-- update with estimated duration -->
+
 ## Configure Domain Password Policy
 
 In this task, you configure the domain password policy. To complete this task, perform the following steps:

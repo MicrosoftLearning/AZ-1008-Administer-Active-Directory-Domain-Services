@@ -5,6 +5,8 @@ lab:
 ---
 In this exercise, you configure settings related to security including disabling NTLM authentication for domain accounts, auditing account management activity, and denying log on as a service for members of a security group.
 
+This exercise should take approximately **10** minutes to complete. <!-- update with estimated duration -->
+
 ## Restrict NTLM Authentication
 
 In this task, you restrict NTLM authentication. To complete this task, perform the following steps in TAILWIND-DC1:
