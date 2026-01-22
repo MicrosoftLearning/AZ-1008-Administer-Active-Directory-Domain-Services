@@ -5,6 +5,8 @@ lab:
 ---
 In this exercise, you perform user management operations.
 
+This exercise should take approximately **25** minutes to complete. <!-- update with estimated duration -->
+
 ## Create Organizational Units
 
 In this task, you create three OUs: Sydney, Melbourne, and Brisbane. To complete this task, perform the following steps:
