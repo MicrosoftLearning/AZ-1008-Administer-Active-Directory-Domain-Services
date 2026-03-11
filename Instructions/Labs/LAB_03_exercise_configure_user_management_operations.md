@@ -1,8 +1,13 @@
 ---
 lab:
-    title: 'Exercise – Configure User Management Operations '
-    module: 'Guided Project – Administer Active Directory Domain Services'
+  title: 'Exercise – Configure User Management Operations '
+  module: Guided Project – Administer Active Directory Domain Services
+  description: In this exercise, you perform user management operations.
+  duration: 25 minutes
+  level: 100
+  islab: true
 ---
+
 In this exercise, you perform user management operations.
 
 This exercise should take approximately **25** minutes to complete. <!-- update with estimated duration -->
