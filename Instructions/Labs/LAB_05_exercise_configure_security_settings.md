@@ -1,8 +1,15 @@
 ---
 lab:
-    title: 'Exercise – Configure Security Settings'
-    module: 'Guided Project – Administer Active Directory Domain Services'
+  title: Exercise – Configure Security Settings
+  module: Guided Project – Administer Active Directory Domain Services
+  description: In this exercise, you configure settings related to security including
+    disabling NTLM authentication for domain accounts, auditing account management
+    activity, and denying log on as a service for members of a security group.
+  duration: 10 minutes
+  level: 200
+  islab: true
 ---
+
 In this exercise, you configure settings related to security including disabling NTLM authentication for domain accounts, auditing account management activity, and denying log on as a service for members of a security group.
 
 This exercise should take approximately **10** minutes to complete. <!-- update with estimated duration -->
