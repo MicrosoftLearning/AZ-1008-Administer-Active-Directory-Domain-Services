@@ -1,8 +1,13 @@
 ---
 lab:
-    title: 'Exercise – Configure Domain Controller Operations'
-    module: 'Guided Project – Administer Active Directory Domain Services'
+  title: Exercise – Configure Domain Controller Operations
+  module: Guided Project – Administer Active Directory Domain Services
+  description: In this exercise, you promote a server to domain controller, transfer a FSMO role to the new domain controller, create a site, and add a subnet to the site.
+  duration: 15 minutes
+  level: 200
+  islab: true
 ---
+
 In this exercise, you promote a server to domain controller, transfer a FSMO role to the new domain controller, create a site, and add a subnet to the site.
 
 This exercise should take approximately **15** minutes to complete. <!-- update with estimated duration -->
