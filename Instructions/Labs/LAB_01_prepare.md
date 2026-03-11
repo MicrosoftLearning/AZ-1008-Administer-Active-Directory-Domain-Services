@@ -1,8 +1,15 @@
 ---
 lab:
-    title: 'Prepare'
-    module: 'Guided Project – Administer Active Directory Domain Services'
+  title: Prepare
+  module: Guided Project – Administer Active Directory Domain Services
+  description: In this guided project, you go through the major steps of creating,
+    configuring, and maintaining a domain controller. You also have the opportunity
+    to promote a domain controller.
+  duration: 45 minutes
+  level: 200
+  islab: true
 ---
+
 ## Project overview
 
 In this guided project, you go through the major steps of creating, configuring, and maintaining a domain controller. You also have the opportunity to promote a domain controller.
