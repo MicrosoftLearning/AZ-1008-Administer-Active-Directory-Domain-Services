@@ -2,14 +2,15 @@
 lab:
   title: Prepare
   module: Guided Project – Administer Active Directory Domain Services
-  description: The computer that functions as the Hyper-V virtualization host should have at least 16 GB of RAM. You can also use an evaluation version of Windows Server with the Hyper-V role installed as the host for these virtual machines, or to configure a third-party virtualization platform to host both virtual machines. The exercises and tasks in this lab use Windows 11 when describing the Hyper-V host. The options presented here make it easy to locate large virtual machine files if you want to remove the configuration after you finish with the project.
+  description: You prepare a Windows 11 host for the guided project by installing and configuring Hyper-V networking and storage settings. You deploy and configure two Windows Server 2022 virtual machines, promote one to a new Active Directory domain controller, and join the second server to the domain.
   duration: 45 minutes
-  level: 200
+  level: 300
   islab: true
   primarytopics:
-    - Windows
-    - Windows 11
-    - Windows Server
+    - Hyper-V
+    - Windows Server 2022
+    - Active Directory Domain Services
+    - Domain Controller Deployment
 ---
 
 ## Project overview

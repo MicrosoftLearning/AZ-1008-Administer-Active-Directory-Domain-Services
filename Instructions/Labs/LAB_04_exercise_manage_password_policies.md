@@ -2,12 +2,15 @@
 lab:
   title: Exercise – Manage Password Policies
   module: Guided Project – Administer Active Directory Domain Services
-  description: In this exercise, you configure group policy items related to password policies. This includes configuring the domain password policy, creating a stricter password policy for the Domain Admins group, and enabling the Active Directory Recycle Bin.
+  description: You configure domain and fine-grained password policies to enforce different password requirements for standard users and administrators. You also enable the Active Directory Recycle Bin to support object recovery.
   duration: 10 minutes
-  level: 100
+  level: 200
   islab: true
   primarytopics:
-    - Active Directory
+    - Group Policy
+    - Password Policy
+    - Fine-Grained Password Policy
+    - Active Directory Recycle Bin
 ---
 
 In this exercise, you configure group policy items related to password policies. This includes configuring the domain password policy, creating a stricter password policy for the Domain Admins group, and enabling the Active Directory Recycle Bin.

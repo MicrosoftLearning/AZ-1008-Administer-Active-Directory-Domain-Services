@@ -2,10 +2,15 @@
 lab:
   title: Exercise – Configure Security Settings
   module: Guided Project – Administer Active Directory Domain Services
-  description: In this exercise, you configure settings related to security including disabling NTLM authentication for domain accounts, auditing account management activity, and denying log on as a service for members of a security group.
+  description: You harden directory security by restricting NTLM authentication in domain controller policy and enabling account management auditing for an OU. You also configure user rights assignment to deny log on as a service for a designated group.
   duration: 10 minutes
-  level: 200
+  level: 300
   islab: true
+  primarytopics:
+    - Group Policy
+    - NTLM Security
+    - Audit Policy
+    - User Rights Assignment
 ---
 
 In this exercise, you configure settings related to security including disabling NTLM authentication for domain accounts, auditing account management activity, and denying log on as a service for members of a security group.

@@ -2,10 +2,15 @@
 lab:
   title: 'Exercise – Configure User Management Operations '
   module: Guided Project – Administer Active Directory Domain Services
-  description: In this exercise, you perform user management operations.
+  description: You manage identities and delegation in Active Directory by creating organizational units, users, and security groups. You configure protected user membership, delegate password reset permissions, set user attributes, and perform account lifecycle actions such as disable and password reset.
   duration: 25 minutes
-  level: 100
+  level: 200
   islab: true
+  primarytopics:
+    - Active Directory Users and Computers
+    - Organizational Units
+    - User and Group Management
+    - Delegated Administration
 ---
 
 In this exercise, you perform user management operations.
