@@ -1,8 +1,18 @@
 ---
 lab:
-    title: 'Prepare'
-    module: 'Guided Project – Administer Active Directory Domain Services'
+  title: Prepare
+  module: Guided Project – Administer Active Directory Domain Services
+  description: You prepare a Windows 11 host for the guided project by installing and configuring Hyper-V networking and storage settings. You deploy and configure two Windows Server 2022 virtual machines, promote one to a new Active Directory domain controller, and join the second server to the domain.
+  duration: 45 minutes
+  level: 300
+  islab: true
+  primarytopics:
+    - Hyper-V
+    - Windows Server 2022
+    - Active Directory Domain Services
+    - Domain Controller Deployment
 ---
+
 ## Project overview
 
 In this guided project, you go through the major steps of creating, configuring, and maintaining a domain controller. You also have the opportunity to promote a domain controller.
